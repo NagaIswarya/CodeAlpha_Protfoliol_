@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Naga Iswarya | Portfolio</title>
+
+<style>
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+    background:#f2f2f2;
+    scroll-behavior:smooth;
+}
+
+header{
+    background:#222;
+    color:white;
+    padding:20px;
+    text-align:center;
+}
+
+nav a{
+    color:white;
+    margin:0 15px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+section{
+    padding:40px 20px;
+    max-width:1000px;
+    margin:auto;
+}
+
+h2{
+    text-align:center;
+    margin-bottom:20px;
+}
+
+.about, .skills, .projects, .contact{
+    background:white;
+    margin-bottom:20px;
+    padding:20px;
+    border-radius:10px;
+}
+
+.skills ul{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+    list-style:none;
+    padding:0;
+}
+
+.skills li{
+    background:#e0e0e0;
+    margin:10px;
+    padding:10px;
+    text-align:center;
+    border-radius:5px;
+}
+
+.projects .card{
+    background:#f9f9f9;
+    padding:15px;
+    margin:15px 0;
+    border-radius:8px;
+}
+
+.contact input, .contact textarea{
+    width:100%;
+    padding:10px;
+    margin:10px 0;
+}
+
+.contact button{
+    padding:10px 20px;
+    background:#222;
+    color:white;
+    border:none;
+    cursor:pointer;
+}
+
+footer{
+    text-align:center;
+    padding:15px;
+    background:#222;
+    color:white;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Naga Iswarya</h1>
+    <p>Frontend Developer | Student</p>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section id="about" class="about">
+<h2>About Me</h2>
+<p>
+I am a passionate frontend developer and student.  
+I enjoy creating responsive and user-friendly websites using HTML, CSS, and JavaScript.
+</p>
+</section>
+
+<section id="skills" class="skills">
+<h2>Skills</h2>
+<ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+    <li>Java</li>
+    <li>Git & GitHub</li>
+    <li>Basic Python</li>
+</ul>
+</section>
+
+<section id="projects" class="projects">
+<h2>Projects</h2>
+
+<div class="card">
+<h3>Image Gallery</h3>
+<p>Responsive image gallery with filters and lightbox using HTML, CSS, and JavaScript.</p>
+</div>
+
+<div class="card">
+<h3>Calculator</h3>
+<p>Basic calculator supporting all arithmetic operations.</p>
+</div>
+
+<div class="card">
+<h3>Portfolio Website</h3>
+<p>Personal portfolio website showcasing skills and projects.</p>
+</div>
+
+</section>
+
+<section id="contact" class="contact">
+<h2>Contact Me</h2>
+
+<p><strong>Phone:</strong> 6385375294</p>
+<p><strong>Email:</strong> nagaiswarya280@gmail.com</p>
+
+<input type="text" placeholder="Your Name">
+<input type="email" placeholder="Your Email">
+<textarea rows="4" placeholder="Your Message"></textarea>
+<button>Send Message</button>
+</section>
+
+<footer>
+<p>© 2025 Naga Iswarya | Portfolio</p>
+</footer>
+
+</body>
+</html>
